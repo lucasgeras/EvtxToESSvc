@@ -17,8 +17,8 @@ Compiled version (x64) --> [release.zip](https://github.com/lucasgeras/EvtxToESS
 2. url/path : (url) if you wish to get config via json, (file) to read local file
 3. selfsigned : optional argument to skip ssl validation when getting the json
 ## Installation Examples:
-	sc create EvtxToESSvc_file binPath= "C:\Users\lucas\source\repos\EvtxToES\EvtxToESSvc\bin\Debug\EvtxToESSvc.exe file C:\Users\lucas\Desktop\rules.json"
-	sc create EvtxToESSvc_ssl binPath= "C:\Users\lucas\source\repos\EvtxToES\EvtxToESSvc\bin\Debug\EvtxToESSvc.exe url https://api.npoint.io/30a32e7f740af0a18b43 selfsigned"
+	sc create EvtxToESSvc_file binPath= "C:\Code\release\EvtxToESSvc.exe file C:\Users\lucas\Desktop\rules.json"
+	sc create EvtxToESSvc_ssl binPath= "C:\Code\release\EvtxToESSvc.exe url https://api.npoint.io/30a32e7f740af0a18b43 selfsigned"
 
 ## Configuration file Example (simple JSON, both for file and url option):
 Address is your logstash parser listening address, refresh is a number of miliseconds between each search for evtx on local drive.
