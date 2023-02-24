@@ -10,8 +10,10 @@ This little program is intended to provide easy to use and versatile way to expo
 5. Refreshes configuration when the service is restarted
 
 ## Installation:
-Just compile the project and copy the bin output folder somewhere. You can use the compiled version too. Then use sc.exe to install the service in the system.
+Just compile the project and copy the bin output folder somewhere. You can use the compiled version too. 
 Compiled version (x64) --> [release.zip](https://github.com/lucasgeras/EvtxToESSvc/files/10826427/release.zip)
+
+Then use sc.exe to install the service in the system. Provide the argument's pointing to config and type of config access. 
 
 1. type : (file) for reading a config file, (url) for getting json from url 
 2. url/path : (url) if you wish to get config via json, (file) to read local file
