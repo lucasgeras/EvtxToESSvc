@@ -170,4 +170,6 @@ output{
 ```
 ## Final thoughts
 1. At best, send logs to logstash via Kafka, no logs will be dropped by overloaded logstash instance
-2. Create various configs for various systems
+2. At best, use the url-to-json configuration method. After update your clients will just update it.
+3. If you'll use it kindly please share your thoughts and info about bugs and requests.
+4. Hope you'll like it.
